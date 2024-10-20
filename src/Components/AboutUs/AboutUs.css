@@ -1,0 +1,100 @@
+/* src/components/AboutUs.css */
+
+/* General container for About Us and Why You'll Love Us sections */
+.about-us-container {
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #be842d, #4fc3f7); /* Nice gradient background */
+    color: white;
+    text-align: center;
+    margin-bottom: 50px; /* Added margin to separate from other sections */
+    border-top: 2px solid #007bff; 
+  }
+  
+  /* About Us section styling */
+  .about-us-section h2 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  .about-us-section p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 1.8;
+    max-width: 900px;
+    margin: 0 auto 20px auto;
+    color: #e0e0e0;
+  }
+  
+  /* Why You'll Love Us section styling */
+  .why-love-us-section {
+    padding-top: 50px;
+    margin-top: 50px;
+    border-top: 2px solid rgba(255, 255, 255, 0.2); /* Light border to separate sections */
+  }
+  
+  /* Logo styling */
+  .about-us-logo {
+    height: 100px;
+    width: auto;
+    margin-bottom: 30px;
+  }
+  
+  /* Feature section (three features) */
+  .about-us-features {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+  }
+  
+  .feature-item {
+    max-width: 250px;
+    text-align: center;
+  }
+  
+  .feature-icon {
+    font-size: 50px;
+    color: #ff6b6b; /* Custom color for icons */
+    margin-bottom: 20px;
+  }
+  
+  .feature-item h3 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .feature-item p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #e0e0e0;
+  }
+  
+  /* Optional animation for both sections */
+  .about-us-section h2, .why-love-us-section h2, 
+  .about-us-section p, .feature-item {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.6s ease forwards;
+  }
+  
+  .about-us-section p, .feature-item {
+    animation-delay: 0.2s;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

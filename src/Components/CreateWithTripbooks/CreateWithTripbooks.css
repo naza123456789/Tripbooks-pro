@@ -1,0 +1,52 @@
+.create-with-tripbooks {
+    display: flex; /* Use flex to align items */
+    justify-content: space-between; /* Space between video and slogan */
+    align-items: center; /* Center items vertically */
+    padding: 60px; /* Increased padding for more space */
+    background-color: #f9f9f9; /* Light background for contrast */
+    margin-bottom: 60px; /* Space below this section */
+    border-top: 2px solid #007bff; /* Top border for separation */
+    border-radius: 10px; /* Rounded corners for the entire section */
+  }
+  
+  .video-section {
+    flex: 1; /* Allow the video section to take available space */
+    margin-right: 30px; /* Space between video and icons */
+  }
+  
+  .video-section video {
+    width: 100%; /* Full width video */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners for the video */
+  }
+  
+  .slogan-and-icons {
+    flex: 1; /* Allow the slogan section to take available space */
+  }
+  
+  .icon-section {
+    display: flex; /* Flexbox for icons */
+    justify-content: center; /* Center the icons */
+    margin: 30px 0; /* Margin above and below icons */
+  }
+  
+  .icon {
+    font-size: 50px; /* Increase icon size */
+    margin: 0 20px; /* Space between icons */
+    color: #007bff; /* Icon color */
+  }
+  
+  .slogan-section h2 {
+    font-size: 40px; /* Increased font size for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+    text-align: center; /* Center the heading */
+  }
+  
+  .slogan-section p {
+    font-size: 22px; /* Increased font size for the paragraph */
+    color: #666; /* Lighter color for paragraph text */
+    text-align: center; /* Center the paragraph */
+    max-width: 600px; /* Limit width for better readability */
+    margin: 0 auto; /* Center the paragraph block */
+  }
+  

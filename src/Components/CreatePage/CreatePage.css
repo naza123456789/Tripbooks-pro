@@ -1,0 +1,22 @@
+/* src/components/CreatePage/CreatePage.css */
+.create-page {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .back-home-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-home-btn:hover {
+    background-color: #0056b3;
+  }
+  
